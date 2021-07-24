@@ -32,6 +32,10 @@ if (NOT TEASERPP_PYTHON_VERSION)
     set(TEASERPP_PYTHON_VERSION "" CACHE STRING "Python version to use for TEASER++ bindings.")
 endif ()
 
+find_package(PCL 1.8 REQUIRED)
+set(PCL_INCLUDE_DIRS /usr/include/pcl-1.8)
+include_directories( ${PCL_INCLUDE_DIRS})
+
 # Find dependencies
 # Eigen3
 find_package(Eigen3 3.2 QUIET REQUIRED NO_MODULE)
