@@ -1,3 +1,5 @@
+修改内容：CMakeLists里面修改部分配置选项
+
 # TEASER++: fast & certifiable 3D registration 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Documentation Status](https://readthedocs.org/projects/teaser/badge/?version=latest)](https://teaser.readthedocs.io/en/latest/?badge=latest)
